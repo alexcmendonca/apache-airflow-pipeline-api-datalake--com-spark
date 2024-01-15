@@ -10,7 +10,7 @@ O objetivo deste projeto é aprimorar o projeto "Desenvolvimento de um Pipeline 
 ## 🖥️Desafios do Projeto
 Empregar a integração do Apache Airflow com Spark, PySpark e o operador Spark Submit para efetuar a transformação dos dados e promover a reestruturação do Data Lake por meio de uma arquitetura baseada em medalhas. Esse enfoque fragmentará as etapas em distintas camadas, configurando as três camadas como a nova estrutura aplicada ao Data Lake. Essa abordagem não apenas proporcionará maior organização ao ambiente, mas também viabilizará a refinamento dos dados brutos de maneira mais eficiente.
 
-###### Imagem 2: Diagrama final do Pipeline deste Projeto (Créditos da imagem: Alura)
+###### Imagem 2: Medallion Architecture (Créditos da imagem: Alura)
 <img src="/assets/img/arquitetura_medalhao.png">
 
 **- Resumo da execução do Projeto**
