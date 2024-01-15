@@ -1,4 +1,4 @@
-# Desenvolvimento de um Pipeline de Dados em Python dedicado à extração de informações através de uma API. O utilizando as poderosas ferramentas Apache Airflow para orquestração do fluxo de dados e Apache Spark para realizar extração e transformações robustas nos conjuntos de dados.
+# Desenvolvimento de um Pipeline de Dados em Python dedicado à extração de informações através de uma API. Utilizando as poderosas ferramentas Apache Airflow para orquestração do fluxo de dados e Apache Spark para realizar extração e transformações robustas nos conjuntos de dados.
 
 ## 💡Objetivos
 O objetivo deste projeto é aprimorar o projeto "Desenvolvimento de um Pipeline de Dados em Python para extração de dados via API utilizando o Apache Airflow" [https://github.com/alexcmendonca/apache-airflow-pipeline-api-datalake]. Esta atualização incorpora a ferramenta Spark para aprimorar a transformação dos dados, introduzindo uma nova estrutura ao Data Lake com a implementação de uma arquitetura de medalhas. Ao término do projeto, os dados serão entregues de maneira organizada, facilitando sua interpretação.
