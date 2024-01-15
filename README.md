@@ -22,9 +22,9 @@ A exploração detalhada dos dados ocorreu por meio do Spark / PySpark, utilizan
 Transformamos a exploração de dados realizada no Jupyter Notebook em um script Python denominado "transformation.py", o qual será posteriormente integrado ao pipeline orquestrado pelo Apache Airflow.
 	Funções desenvolvidas:
 		**get_tweets_data():** Encarregada de extrair os dados brutos do DataFrame e criar um novo contendo exclusivamente os tweets.
-		get_users_data(df): Utilizada para extrair informações relacionadas aos usuários.
-		export_json(): Responsável por salvar e armazenar os dados resultantes.
-		twitter_transformation(): Função principal que incorpora Spark, englobando todas as funções. Realiza a leitura do DataFrame original e invoca as funções de extração e salvamento, consolidando assim a transformação dos dados.
+		**get_users_data(df):** Utilizada para extrair informações relacionadas aos usuários.
+		**export_json():** Responsável por salvar e armazenar os dados resultantes.
+		**twitter_transformation():** Função principal que incorpora Spark, englobando todas as funções. Realiza a leitura do DataFrame original e invoca as funções de extração e salvamento, consolidando assim a transformação dos dados.
 
 Testamos o script Python "transformation.py" utilizando o Spark Submit.
 
